@@ -1,0 +1,16 @@
+# Python backend
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Local database (hashed passwords and journal entries)
+*.db
+*.db-journal
+
+# Editor / tool settings
+.claude/
+.vscode/
+.idea/
+.DS_Store
